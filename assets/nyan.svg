@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <style>
+      @keyframes fly { 0% { transform: translateX(-100px); } 100% { transform: translateX(900px); } }
+      @keyframes rainbow { 0% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -200; } }
+      @keyframes twinkle { 0%,100% { opacity: 0.3; } 50% { opacity: 1; } }
+      @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+      .cat { animation: fly 6s linear infinite; }
+      .cat-inner { animation: bob 0.5s ease-in-out infinite; }
+      .rainbow { animation: rainbow 1s linear infinite; stroke-dasharray: 20 10; }
+      .star { animation: twinkle 2s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- 星空背景 -->
+  <rect width="800" height="200" fill="#0a0a2e"/>
+  <g fill="#fff">
+    <circle class="star" cx="50" cy="30" r="1.5"/>
+    <circle class="star" cx="150" cy="80" r="1" style="animation-delay:0.5s"/>
+    <circle class="star" cx="250" cy="40" r="2" style="animation-delay:1s"/>
+    <circle class="star" cx="350" cy="120" r="1"/>
+    <circle class="star" cx="450" cy="60" r="1.5" style="animation-delay:0.3s"/>
+    <circle class="star" cx="550" cy="100" r="1"/>
+    <circle class="star" cx="650" cy="30" r="2" style="animation-delay:0.7s"/>
+    <circle class="star" cx="750" cy="90" r="1"/>
+    <circle class="star" cx="100" cy="150" r="1.5"/>
+    <circle class="star" cx="300" cy="170" r="1" style="animation-delay:1.2s"/>
+    <circle class="star" cx="500" cy="160" r="1.5"/>
+    <circle class="star" cx="700" cy="170" r="1" style="animation-delay:0.8s"/>
+  </g>
+
+  <!-- 彩虹拖尾 -->
+  <g class="rainbow" stroke-width="4" fill="none">
+    <line x1="0" y1="100" x2="600" y2="100" stroke="#ff004d"/>
+    <line x1="0" y1="106" x2="600" y2="106" stroke="#ff8c00"/>
+    <line x1="0" y1="112" x2="600" y2="112" stroke="#ffee00"/>
+    <line x1="0" y1="118" x2="600" y2="118" stroke="#00e436"/>
+    <line x1="0" y1="124" x2="600" y2="124" stroke="#29adff"/>
+    <line x1="0" y1="130" x2="600" y2="130" stroke="#b967ff"/>
+  </g>
+
+  <!-- 像素风小猫 -->
+  <g class="cat">
+    <g class="cat-inner">
+      <!-- 身体 Pop-Tart 吐司 -->
+      <rect x="680" y="95" width="50" height="30" fill="#ffd9a0"/>
+      <rect x="680" y="95" width="50" height="4" fill="#e8a868"/>
+      <rect x="680" y="121" width="50" height="4" fill="#e8a868"/>
+      <!-- 糖霜 -->
+      <rect x="684" y="99" width="8" height="3" fill="#ff69b4"/>
+      <rect x="700" y="99" width="6" height="3" fill="#00e436"/>
+      <rect x="716" y="99" width="8" height="3" fill="#29adff"/>
+      <rect x="686" y="118" width="6" height="3" fill="#ffee00"/>
+      <rect x="710" y="118" width="8" height="3" fill="#b967ff"/>
+      <!-- 头 -->
+      <rect x="730" y="90" width="30" height="30" fill="#c0c0c0"/>
+      <rect x="730" y="90" width="30" height="6" fill="#a0a0a0"/>
+      <!-- 耳朵 -->
+      <rect x="733" y="84" width="6" height="8" fill="#c0c0c0"/>
+      <rect x="752" y="84" width="6" height="8" fill="#c0c0c0"/>
+      <rect x="735" y="86" width="3" height="4" fill="#ff9eb5"/>
+      <rect x="753" y="86" width="3" height="4" fill="#ff9eb5"/>
+      <!-- 眼睛 -->
+      <rect x="737" y="100" width="5" height="7" fill="#000"/>
+      <rect x="748" y="100" width="5" height="7" fill="#000"/>
+      <rect x="738" y="101" width="2" height="2" fill="#fff"/>
+      <rect x="749" y="101" width="2" height="2" fill="#fff"/>
+      <!-- 鼻子嘴 -->
+      <rect x="743" y="110" width="4" height="3" fill="#ff6b9d"/>
+      <rect x="740" y="114" width="10" height="2" fill="#000"/>
+      <!-- 胡须 -->
+      <line x1="725" y1="108" x2="733" y2="109" stroke="#000" stroke-width="1"/>
+      <line x1="725" y1="112" x2="733" y2="112" stroke="#000" stroke-width="1"/>
+      <line x1="757" y1="108" x2="765" y2="109" stroke="#000" stroke-width="1"/>
+      <line x1="757" y1="112" x2="765" y2="112" stroke="#000" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- 底部文字 -->
+  <text x="400" y="190" text-anchor="middle" fill="#ff69b4" font-family="monospace" font-size="14" font-weight="bold">meow meow meow ~</text>
+</svg>
