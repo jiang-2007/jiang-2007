@@ -1,13 +1,13 @@
 <div align="center">
 
-<!-- 🐱 Nyan Cat 横幅 -->
-<img src="https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif" alt="Nyan Cat" width="420"/>
+<!-- 🐱 Nyan Cat 横幅（换多源备份） -->
+<img src="https://raw.githubusercontent.com/jiang-2007/jiang-2007/main/assets/nyan-cat.gif" alt="Nyan Cat" width="420" onerror="this.onerror=null;this.src='https://c.tenor.com/BSZ1N2eI4E4AAAPo/nyan-cat-cat.gif'"/>
 
-<br/>
+<br/><br/>
 
-<!-- 打字机效果标题 -->
+<!-- 打字机效果 -->
 <a href="https://github.com/jiang-2007">
-  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=28&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=meow+meow+meow+~;你好呀+我是+Jiang;正在+跨考+复旦+应用心理;日常+在+做+AIGC+小项目;时空笔友+正在+迭代中" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=28&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=meow+meow+meow+~;你好呀+我是+Jiang;正在+做+AIGC+小项目;欢迎+路过+我的+小星系" alt="typing"/>
 </a>
 
 </div>
@@ -16,23 +16,17 @@
 
 ## 🐾 关于我
 
-```text
-┌─────────────────────────────────────────────┐
-│  🏫  安徽财经大学 · 计算机科学与技术         │
-│  🎯  跨考目标：复旦大学 · 应用心理 (347)     │
-│  💼  正在探索：AIGC 产品 + 数据标注副业       │
-│  📮  在写的项目：时空笔友 Time Penpal (v3.0) │
-│  🌙  MB TI：典型 P 人，deadline 才是生产力  │
-└─────────────────────────────────────────────┘
-```
+- 🔭 正在折腾：AIGC 小工具、RAG 系统、像素风小动画
+- 🌱 在学：大模型应用开发、产品思维
+- 📮 代表作：[时空笔友 Time Penpal](https://github.com/jiang-2007/time-postcard) —— 写一句话给历史，有个真读过自己书的人给你回信
+- ⚡ 座右铭：先跑起来，再慢慢改
 
-## 🧰 我正在用的栈
+## 🧰 常用栈
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![LangChain](https://img.shields.io/badge/-LangChain-1C1C1C?style=flat-square&logo=langchain&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![PyCharm](https://img.shields.io/badge/-PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ## 📊 GitHub 数据
@@ -48,21 +42,12 @@
 
 </div>
 
-## 🐱 像素小彩蛋
-
-```text
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░█▀▀▄░█░█░█▀█░█░█░█░░░█▀█░░░░
-░░░░█▀▀▄░█▀█░█░█░█░█░█░░░█▄█░░░░
-░░░░▀▀▀░░▀░▀░▀▀▀░▀▀▀░▀▀░▀░▀░░░░
-░░░░░🌈 🌈 🌈 🌈 🌈 🌈 🌈 🌈 🌈░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+---
 
 <div align="center">
 
 ### 🌟 谢谢你路过我的小星系 🌟
 
-<sub>Powered by Nyan Cat · 邮资我们付 · <a href="https://github.com/jiang-2007/time-postcard">时空笔友 v3.0</a></sub>
+<sub>Powered by Nyan Cat · <a href="https://github.com/jiang-2007/time-postcard">时空笔友 v3.0</a></sub>
 
 </div>
