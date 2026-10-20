@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- 🐱 Nyan Cat 横幅（换多源备份） -->
-<img src="https://raw.githubusercontent.com/jiang-2007/jiang-2007/main/assets/nyan-cat.gif" alt="Nyan Cat" width="420" onerror="this.onerror=null;this.src='https://c.tenor.com/BSZ1N2eI4E4AAAPo/nyan-cat-cat.gif'"/>
+<!-- 🐱 Nyan Cat 横幅 -->
+<img src="https://aka.doubaocdn.com/s/RLnCXN7Bgd" alt="Nyan Cat" width="600"/>
 
 <br/><br/>
 
