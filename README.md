@@ -1,14 +1,13 @@
 <div align="center">
 
-<!-- 🐱 Nyan Cat 横幅 -->
-<img src="https://aka.doubaocdn.com/s/RLnCXN7Bgd" alt="Nyan Cat" width="600"/>
+<!-- 🐱 自包含 Nyan Cat 动画（纯SVG+CSS，不依赖外部图床） -->
+<img src="https://raw.githubusercontent.com/jiang-2007/jiang-2007/main/assets/nyan.svg" alt="Nyan Cat" width="700"/>
 
 <br/><br/>
 
-<!-- 打字机效果 -->
-<a href="https://github.com/jiang-2007">
-  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=28&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=meow+meow+meow+~;你好呀+我是+Jiang;正在+做+AIGC+小项目;欢迎+路过+我的+小星系" alt="typing"/>
-</a>
+<h3>meow meow meow ~ 你好呀，我是 Jiang</h3>
+
+<sub>正在做 AIGC 小项目 · 欢迎路过我的小星系</sub>
 
 </div>
 
