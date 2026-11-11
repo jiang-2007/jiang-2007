@@ -24,9 +24,9 @@
 ## 🚀 精选项目
 
 ### [agent-harness-kit](https://github.com/jiang-2007/agent-harness-kit)
-A lightweight, model-agnostic **LLM agent harness**: ReAct loop, tool registry, pluggable providers, sub-agent routing, local TF-IDF retrieval, structured trace and policy guards. Standard-library core, offline mock provider, unit-tested.
+A model-agnostic **LLM agent harness**: ReAct loop, tool registry, pluggable providers, parallel sub-agent routing and aggregation, local TF-IDF retrieval, structured trace, session persistence and policy guards. Standard-library core, offline mock provider, unit-tested.
 
-`agent-framework` `llm` `tool-calling` `multi-agent` `rag` `orchestration` `python`
+`agent-framework` `llm` `agent-orchestration` `tool-calling` `multi-agent` `rag` `orchestration` `python`
 
 ### [focus-guardian](https://github.com/jiang-2007/focus-guardian)
 纯本地的 Windows 生产力工具：记录电脑使用习惯，主动拦截干扰，保护专注时间。
